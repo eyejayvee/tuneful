@@ -4,6 +4,6 @@ class DevelopmentConfig(object):
     UPLOAD_FOLDER = "uploads"
 
 class TestingConfig(object):
-    DATABASE_URI = "postgresql://action:action@localhost:5432/tuneful-test"
+    DATABASE_URI = "postgresql://localhost:5432/tuneful-test"
     DEBUG = True
     UPLOAD_FOLDER = "test-uploads"
